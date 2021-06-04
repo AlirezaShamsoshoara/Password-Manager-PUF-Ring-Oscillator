@@ -27,7 +27,7 @@ To read the frequency values from the hardware and compare it with the Raspberry
 <br/><br/>
 ![Alt text](/images/p12.png)
 
-This logic analyzer is available on many websites such as [Amazon](https://www.amazon.com/HiLetgo-Analyzer-Ferrite-Channel-Arduino/dp/B077LSG5P2/ref=sr_1_3?ie=UTF8&qid=1525562576&sr=8-3&keywords=logic+analyzer).
+This logic analyzer is available on many websites such as [Amazon: HiLetgo USB Logic Analyzer Device With EMI Ferrite Ring USB Cable 24MHz 8CH 24MHz 8 Channel UART IIC SPI Debug](https://www.amazon.com/HiLetgo-Analyzer-Ferrite-Channel-Arduino/dp/B077LSG5P2/ref=sr_1_3?ie=UTF8&qid=1525562576&sr=8-3&keywords=logic+analyzer).
 
 ## Code
 ### Required packages for this projects are:<br/>
