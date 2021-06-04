@@ -30,13 +30,26 @@ To read the frequency values from the hardware and compare it with the Raspberry
 This logic analyzer is available on many websites such as [Amazon](https://www.amazon.com/HiLetgo-Analyzer-Ferrite-Channel-Arduino/dp/B077LSG5P2/ref=sr_1_3?ie=UTF8&qid=1525562576&sr=8-3&keywords=logic+analyzer).
 
 ## Code
-Different codes are associated with project.<br/>
+### Required packages for this projects are:<br/>
+* os
+* time
+* socket
+* RPi.GPIO
+* DataHash
+
+
+
+### Different codes are associated with project.<br/>
 * The Python file is used on Raspberry Pi to read the output of the hardware for different channel of frequencies. This file is called [calculate.py](https://github.com/AlirezaShamsoshoara/Password-Manager-PUF-Ring-Oscillator/blob/main/calculate.py). <br/>
 * The password management scheme is implemented in Matlab and called [passwordMngmnt.m](https://github.com/AlirezaShamsoshoara/Password-Manager-PUF-Ring-Oscillator/blob/main/passwordMngmnt.m). <br/>
 * To generate the hash value, we used an available hash function from math works [DataHash.m](https://github.com/AlirezaShamsoshoara/Password-Manager-PUF-Ring-Oscillator/blob/main/DataHash.m). However, a new version of this hash function is available on [MathWorks](https://www.mathworks.com/matlabcentral/fileexchange/31272-datahash).
 
 ## GUI
-The Graphical User Interface (GUI) is designed in Matlab for the user to test the password management scheme. 
+The Graphical User Interface (GUI) is designed in Matlab for the user to test the password management scheme. The designed GUI is demonstrated here:
+<br/><br/>
+![Alt text](/images/p16.png)
+<br/><br/>
+The design file is called [tutorialApp.mlapp](https://github.com/AlirezaShamsoshoara/Password-Manager-PUF-Ring-Oscillator/blob/main/tutorialApp.mlapp).
 
 
 ## Citation
